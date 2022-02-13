@@ -1,5 +1,10 @@
 .App {
   /* text-align: center; */
+  background-color: #EFEFEF;
+  background-image: url(PokeWallpaper.png);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .App-header {

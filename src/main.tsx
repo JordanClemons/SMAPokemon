@@ -9,9 +9,9 @@ import { worker } from './backend/browser'
 const theme = createTheme()
 
 async function prepare() {
-  if (import.meta.env.DEV) {
-    return worker.start()
-  }
+  // if (import.meta.env.DEV) {
+  //   return worker.start()
+  // }
 }
 
 prepare().then(() => {
